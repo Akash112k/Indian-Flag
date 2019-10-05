@@ -7,9 +7,9 @@ wn.title("India Flag")
 print(wn.screensize())
 
 pt = turtle.Turtle()
-pt.color('blue')
+pt.color('#000080')
 pt.speed(0)
-pt.width(3)
+pt.width(2)
 
 pt.begin_fill()
 for i in range(1,361):
@@ -46,14 +46,14 @@ pt.setposition(center_x,center_y)
 pt.setheading(180)
 
 # Saffron Box
-pt.fillcolor('#f4c430')
+pt.fillcolor('#ff9933')
 pt.forward(250)
 pt.color('black')
 x,y = pt.position()
 pt.right(90)
 pt.forward(60)
 pt.pendown()
-pt.fillcolor('#f4c430')
+pt.fillcolor('#ff9933')
 pt.begin_fill()
 pt.forward(150)
 pt.right(90)
@@ -65,7 +65,7 @@ pt.forward(500)
 pt.end_fill()
 
 # Green Box
-pt.fillcolor('green')
+pt.fillcolor('#138808')
 pt.setposition(x,y)
 pt.left(90)
 pt.forward(90)
